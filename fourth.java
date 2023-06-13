@@ -46,8 +46,7 @@ public class fourth {
         int a = 1;
         int b = 2;
         if (a>b) {
-            System.out.println("a>b"); {
-            }
+            System.out.println("a>b");
         } else {
                 System.out.println("b>a");
         }
@@ -56,28 +55,27 @@ public class fourth {
 }
  */
 
-
+/*
 public class fourth {
     public static void main(String[] args) {
         int a = 1;
         int b = 2;
         if (a<b) {
             System.out.println("a<b"); {
-            }
         } else {
             System.out.println("b<a");
         }
         System.out.println("ifElseMethod ends");
     }
 }
+ */
 
 /*
 public class fourth {
     public static void main(String[] args) {
         int a = 2;
         if (a % 2 == 0) {
-            System.out.println("a chotnoe"); {
-            }
+            System.out.println("a chotnoe");
         } else {
             System.out.println("a nechotnoe");
         }
@@ -86,3 +84,35 @@ public class fourth {
 }
 */
 
+/*
+public class fourth {
+    public static void main(String[] args) {
+        int a = 1;
+        int b = 2;
+        if (a == b) {
+            System.out.println("a==b");
+        }
+        else {
+            System.out.println("b>a");
+        }
+            System.out.println("ifElseMethod ends");
+        }
+    }
+ */
+
+public class fourth {
+    public static void main(String[] args) {
+        int a = 1;
+        int b = 2;
+        if (a == b) {
+            System.out.println("a==b");
+        }
+        else if (b<a) {
+            System.out.println("b<a");
+        }
+        else {
+            System.out.println("b>a");
+        }
+        System.out.println("ifElseMethod ends");
+    }
+}
