@@ -72,7 +72,30 @@ public class seven {
     }
 }
 
+/*
+public class sixth {
+    private int dodavannay(int x, int y) {
+        return (x+y);
+    }
+}
+public class sixth {
+    private int vidnimannay(int x, int y) {
+        return (x - y);
+    }
+}
 
+public class sixth {
+    private int mnohennay(int x, int y) {
+        return (x * y);
+    }
+}
+
+public class sixth {
+    private int dilennay(int x, int y) {
+        return (x / y);
+    }
+}
+*/
 
 
 
