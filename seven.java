@@ -1,29 +1,4 @@
-/*
-public class seven {
-    public static void main(String[] args) {
-        Hello hello = new Hello();
-        hello.show(x :1, y:2);
-        hello.show(x:1 y, y:2);
-        hello.show(x:1 y, y:2, z:3);
 
-//Method overloading
-        public void show ( int x){
-            System.out.println(x);
-        }
-        protected void show ( int x, int y){
-            System.out.println(x);
-            System.out.println(y);
-        }
-        void show ( int x, int y, int z){
-            System.out.println(x);
-            System.out.println(y);
-            System.out.println(z);
-        }
-    }
-}
-*/
-
-/*
 public class seven {
     public static void main(String[] args) {
         StringBuilder name = new StringBuilder("Lena");
@@ -39,7 +14,7 @@ public class seven {
         return name;
     }
 }
-*/
+
 
 /*
 public class seven {
@@ -59,6 +34,7 @@ public class seven {
 }
 */
 
+/*
 public class seven {
     public static void main(String[] args) {
         int i = 34;
