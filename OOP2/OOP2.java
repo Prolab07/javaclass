@@ -6,10 +6,10 @@ static {
 }
 
     {
-        System.out.println("2 Parent block code");
+        System.out.println("3 Parent block code");
     }
 
     public OOP2() {
-        System.out.println("3 Parent constructor");
+        System.out.println("4 Parent constructor");
     }
 }
