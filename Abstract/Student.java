@@ -1,6 +1,7 @@
 package Abstract;
 
 public class Student extends Human {
+
     private String firstname;
     private String post;
 
