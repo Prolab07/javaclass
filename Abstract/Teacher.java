@@ -1,6 +1,5 @@
 package Abstract;
 
-
 public class Teacher extends Human {
 
     private String firstname;

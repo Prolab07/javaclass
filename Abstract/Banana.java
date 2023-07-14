@@ -1,6 +1,5 @@
 package Abstract;
 
-
 public class Banana extends Fruit {
     @Override
     public void color() {
