@@ -12,12 +12,12 @@ public class Student extends Human {
 
     @Override
     public void occupation() {
-        System.out.println("group");
+        System.out.println("learner");
     }
 
     @Override
     public void name() {
-        System.out.println("pupil");
+        System.out.println("bachelor");
     }
 }
 

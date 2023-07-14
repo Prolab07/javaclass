@@ -12,11 +12,11 @@ public class Teacher extends Human {
 
     @Override
     public void occupation() {
-        System.out.println("firstname");
+        System.out.println("lecher");
     }
 
     @Override
     public void name() {
-        System.out.println("post");
+        System.out.println("master");
     }
 }
