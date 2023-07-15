@@ -1,5 +1,4 @@
 package Interfaces;
-
 public class Pilot extends Humans implements Flying {
     @Override
     public void profession() {
