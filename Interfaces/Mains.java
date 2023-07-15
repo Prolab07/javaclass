@@ -5,7 +5,13 @@ public class Mains {
       Dravering sasha = new Draver();
       Flying kolay = new Pilot();
 
+      Humans vasay = new Draver();
+      Humans tolay = new Pilot();
+
       sasha.action();
       kolay.action();
+
+      vasay.profession();
+      tolay.profession();
     }
 }
