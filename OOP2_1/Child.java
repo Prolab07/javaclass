@@ -1,4 +1,4 @@
-package OOP2;
+package OOP2_1;
 
 public class Child extends OOP2 {
     static {

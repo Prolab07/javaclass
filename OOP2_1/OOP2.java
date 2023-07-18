@@ -1,4 +1,4 @@
-package OOP2;
+package OOP2_1;
 
 public class OOP2 {
 static {
