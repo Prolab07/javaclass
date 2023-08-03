@@ -44,6 +44,7 @@ public class Mapdz {
         words.get(10);
 
         System.out.println(words);
+
         System.out.println("____________________________");
         System.out.println(yabluko);
         System.out.println(kit);

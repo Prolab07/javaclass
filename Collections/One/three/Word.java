@@ -2,6 +2,8 @@ package Collections.One.three;
 
 import java.util.Objects;
 
+// использовала итальянский вместо японского (по техническим причинам)
+
 public class Word {
 
     private String ukrword;
