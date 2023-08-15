@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 //задача создать лист с повторяющимися значениями и вывести количество их повторений
+
 public class Main {
 
     public static void main(String[] args) {

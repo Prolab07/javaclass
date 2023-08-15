@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Random;
+
 //задача создать лист с рандомными значениями и вывести их сумму
 public class RandomApi {
     private static int random() {
