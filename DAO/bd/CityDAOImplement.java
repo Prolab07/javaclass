@@ -25,8 +25,9 @@ public class CityDAOImplement implements CityDAO{
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.next()) {
                 Country country = new Country();
-                country.setId(resultSet.getInt("country_id"));
+                country.setArea(resultSet.getInt("country_area"));
                 country.setName(resultSet.getString("country_name"));
+                country.setRegion(resultSet.getString("country_region"));
 
                 City city = new City();
                 city.setIndex(resultSet.getInt("index"));
@@ -36,8 +37,7 @@ public class CityDAOImplement implements CityDAO{
                 return city;
             }
         } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+            throw new RuntimeException(e);}
         return null;
     }
 
@@ -69,7 +69,7 @@ public class CityDAOImplement implements CityDAO{
     }
 
     @Override
-    public City delete_(City city) {
+    public City delete(City city) {
         try (PreparedStatement preparedStatement = connection.prepareStatement(Quaries.CITY_DELETE.getName())) {
             preparedStatement.setInt(1, city.getIndex());
             preparedStatement.executeUpdate();

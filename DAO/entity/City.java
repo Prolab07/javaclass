@@ -5,11 +5,12 @@ import java.util.Objects;
 public class City {
     private String cityname;
     private Integer index;
-    private Country country;
+    private String country;
 
     public City() {
         this.cityname = cityname;
         this.index = index;
+        this.country = country;
     }
 
     public String getCityname() {
@@ -32,7 +33,7 @@ public class City {
         return country;
     }
 
-    public void setCountry(Country country) {
+    public void setCountry(String country) {
         this.country = country;
     }
 

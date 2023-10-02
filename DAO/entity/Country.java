@@ -66,8 +66,4 @@ public class Country {
                 ", area=" + area +
                 '}';
     }
-
-    public int getID() {
-        return null;
-    }
 }
